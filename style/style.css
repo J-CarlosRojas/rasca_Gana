@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #contador-dinero {
+    text-align: center;
+  }
+  
+  #monto {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .boleto {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #aaa;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Cambia el color cuando se pasa el ratón sobre el boleto */
+  .boleto:hover {
+    background-color: #ddd;
+  }
