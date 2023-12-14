@@ -14,12 +14,21 @@
         <p>Dinero: $<span id="monto">0.00</span></p>
     </div>
 
+    <button onclick="juego.usarBoleto()">Usar Boleto</button>
+
     <div>
         <!-- Agrega un botón para comprar boletos -->
         <button onclick="juego.comprarBoleto(0.60)">Comprar Boleto ($0.60)</button>
         <button onclick="juego.comprarBoleto(5.00)">Comprar Boleto ($5.00)</button>
         <button onclick="juego.comprarBoleto(10.00)">Comprar Boleto ($10.00)</button>
 
+    </div>
+
+    <div id="boletosDisponibles">
+        <p>Boletos disponibles:</p>
+        <p>$0.60: <span id="cantidadBoletos60">0</span></p>
+        <p>$5.00: <span id="cantidadBoletos500">0</span></p>
+        <p>$10.00: <span id="cantidadBoletos1000">0</span></p>
     </div>
 
     <div>
