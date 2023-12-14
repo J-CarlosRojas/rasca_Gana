@@ -15,17 +15,25 @@
     </div>
 
     <div>
-<!-- Boletos de rasca y gana -->
-<div class="boleto" id="boleto1" onclick="juego.revelarGanancia(1)"></div>
-<div class="boleto" id="boleto2" onclick="juego.revelarGanancia(2)"></div>
-<div class="boleto" id="boleto3" onclick="juego.revelarGanancia(3)"></div>
-<div class="boleto" id="boleto4" onclick="juego.revelarGanancia(4)"></div>
-<div class="boleto" id="boleto5" onclick="juego.revelarGanancia(5)"></div>
-<div class="boleto" id="boleto6" onclick="juego.revelarGanancia(6)"></div>
+        <!-- Agrega un botón para comprar boletos -->
+        <button onclick="juego.comprarBoleto(0.60)">Comprar Boleto ($0.60)</button>
+        <button onclick="juego.comprarBoleto(5.00)">Comprar Boleto ($5.00)</button>
+        <button onclick="juego.comprarBoleto(10.00)">Comprar Boleto ($10.00)</button>
 
     </div>
 
-   
+    <div>
+        <!-- Boletos de rasca y gana -->
+        <div class="boleto" id="boleto1" onclick="juego.revelarGanancia(1)"></div>
+        <div class="boleto" id="boleto2" onclick="juego.revelarGanancia(2)"></div>
+        <div class="boleto" id="boleto3" onclick="juego.revelarGanancia(3)"></div>
+        <div class="boleto" id="boleto4" onclick="juego.revelarGanancia(4)"></div>
+        <div class="boleto" id="boleto5" onclick="juego.revelarGanancia(5)"></div>
+        <div class="boleto" id="boleto6" onclick="juego.revelarGanancia(6)"></div>
+
+    </div>
+
+
 </body>
 
 </html>
